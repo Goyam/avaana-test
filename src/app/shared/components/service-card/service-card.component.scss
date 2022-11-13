@@ -36,3 +36,19 @@
         height: 24px;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    .service-card {
+        height: 190px;
+        width: 270px;
+        font-size: 14px;
+
+        .brdr-bottom {
+            line-height: 25px;
+        }
+
+        .time-card {
+            padding: 5px;
+        }
+    }
+}

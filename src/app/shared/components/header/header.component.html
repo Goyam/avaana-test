@@ -1,11 +1,16 @@
-<nav class="header-container">
-    <div class="wrapper">
-        <img class="csr-ptr logo" src="../../../../assets/logo.svg" alt="logo">
-        <div class="csr-ptr fw700">Health and wellbeing appointments</div>
-        <div class="csr-ptr fw700">Fitness Classes</div>
-        <img class="csr-ptr" src="../../../../assets/search-icon.png" alt="search">
-        <img class="csr-ptr" src="../../../../assets/profile-icon.png" alt="search">
-        <button class="csr-ptr">List with us</button>
+<nav class="header-container" [ngClass]="{'responsive': showHeaderList}">
+    <div class="wrapper dsp-flx jstfy-spcaround align-cntr h100">
+        <img class="header-list csr-ptr logo" src="../../../../assets/logo.svg" alt="logo">
+        <!-- <div class="header-list dsp-flx jstfy-spcaround align-cntr h100 gp25"> -->
+            <div class="header-list csr-ptr fw700">Health and wellbeing appointments</div>
+            <div class="header-list csr-ptr fw700">Fitness Classes</div>
+            <img class="csr-ptr" src="../../../../assets/search-icon.png" alt="search">
+            <img class="csr-ptr" src="../../../../assets/profile-icon.png" alt="profile">
+            <button class="csr-ptr">List with us</button>
+        <!-- </div> -->
+        <div class="hamburger">
+            <img class="csr-ptr" src="../../../../assets/hamburger-icon1.png" alt="hamburger" (click)="toggleHeader()">
+        </div>
     </div>
 
 </nav>

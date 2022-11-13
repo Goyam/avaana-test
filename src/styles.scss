@@ -38,6 +38,8 @@ body {
 
 .csr-ptr {cursor: pointer;}
 
+.h100 {height: 100%;}
+
 .ff-recoleta {font-family: Recoleta;}
 
 .dsp-flx {display: flex;}
@@ -48,6 +50,7 @@ body {
 .gp10 {gap: 10px;}
 .gp15 {gap: 15px;}
 .gp20 {gap: 20px;}
+.gp25 {gap: 25px;}
 .gp30 {gap: 30px;}
 .gp50 {gap: 50px;}
 
@@ -80,4 +83,11 @@ button {
     color: $white1;
     font-weight: 700;
     font-size: 16px;
+}
+
+
+@media only screen and (max-width: 640px) {
+    button {
+        font-size: 14px;
+    }
 }
