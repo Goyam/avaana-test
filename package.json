@@ -2,7 +2,8 @@
   "name": "test",
   "version": "0.0.0",
   "engines": {
-    "node": "16.14.1"
+    "node": "16.14.1",
+    "npm": "6.14.14"
   },
   "scripts": {
     "ng": "ng",
@@ -17,7 +18,7 @@
     "@angular/animations": "~12.2.0",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
-    "@angular/core": "~12.2.0",
+    "@angular/core": "^14.2.10",
     "@angular/forms": "~12.2.0",
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
