@@ -1,0 +1,27 @@
+@import "../../../../styles/base.scss";
+
+.header-container {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 25px 100px;
+    box-shadow: 0px 3px 6px #00000029;
+    color: $white1;
+    background-color: $darkgreen;
+    // opacity: 2;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+
+        img {
+            height: 100%;
+
+            & .logo {
+                padding: 4px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./styles/base.scss";
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Avenir', 'sans-serif';
+}
+
+body {
+    height: 100%;
+    background-color: $darkgreen;
+}
+
+.fw100 {font-weight: 100;}
+.fw200 {font-weight: 200;}
+.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}
+.fw500 {font-weight: 500;}
+.fw600 {font-weight: 600;}
+.fw700 {font-weight: 700;}
+.fw800 {font-weight: 800;}
+
+.fs10 {font-size: 10px;}
+.fs14 {font-size: 14px;}
+.fs16 {font-size: 16px;}
+.fs36 {font-size: 36px;}
+.fs72 {font-size: 72px;}
+
+.p50 {padding: 50px;}
+
+.csr-ptr {cursor: pointer;}
+
+.ff-recoleta {font-family: Recoleta;}
+
+.dsp-flx {display: flex;}
+.flx-dir-col {flex-direction: column;}
+
+.gp1 {gap: 1px;}
+.gp5 {gap: 5px;}
+.gp10 {gap: 10px;}
+.gp15 {gap: 15px;}
+.gp20 {gap: 20px;}
+.gp30 {gap: 30px;}
+.gp50 {gap: 50px;}
+
+.jstfy-strt {justify-content: start;}
+.jstfy-cntr {justify-content: center;}
+.jstfy-end {justify-content: end;}
+.jstfy-spcbw {justify-content: space-between;}
+.jstfy-spcaround {justify-content: space-around;}
+
+.align-strt {align-items: start;}
+.align-cntr {align-items: center;}
+.align-end {align-items: end;}
+
+input {
+    border: none;
+    border-bottom: 2px solid $darkgreen;
+    outline: 0px !important;
+    color: $darkgreen;
+
+    &::placeholder {
+        color: $darkgreen;
+    }
+}
+
+button {
+    background-color: $pink;
+    padding: 9px 25px;
+    border-radius: 25px;
+    border: none;
+    color: $white1;
+    font-weight: 700;
+    font-size: 16px;
+}
